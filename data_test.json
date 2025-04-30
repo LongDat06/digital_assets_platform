@@ -1,0 +1,94 @@
+{
+  "assets": [
+    {
+      "title": "Premium Digital Art Collection 2024",
+      "description": "High-quality digital art collection including 10 unique pieces in 4K resolution",
+      "price": 99.99,
+      "file_url": "https://example.com/files/digital_art_2024.zip",
+      "tags": ["digital art", "4K", "collection"],
+      "file_type": "zip",
+      "file_size": "2.5GB"
+    },
+    {
+      "title": "Professional Photography Lightroom Presets",
+      "description": "20 professional Lightroom presets for landscape and portrait photography",
+      "price": 49.99,
+      "file_url": "https://example.com/files/lightroom_presets.zip",
+      "tags": ["photography", "lightroom", "presets"],
+      "file_type": "zip",
+      "file_size": "50MB"
+    },
+    {
+      "title": "3D Character Model - Fantasy Warrior",
+      "description": "Fully rigged 3D character model with high-poly and low-poly versions, including textures",
+      "price": 79.99,
+      "file_url": "https://example.com/files/fantasy_warrior_3d.zip",
+      "tags": ["3D", "character", "game asset"],
+      "file_type": "zip",
+      "file_size": "1GB"
+    },
+    {
+      "title": "Stock Music - Cinematic Orchestra",
+      "description": "5 minutes of orchestral music perfect for film and video projects",
+      "price": 29.99,
+      "file_url": "https://example.com/files/cinematic_orchestra.mp3",
+      "tags": ["music", "orchestra", "cinematic"],
+      "file_type": "mp3",
+      "file_size": "15MB"
+    },
+    {
+      "title": "UI Kit - Modern Dashboard",
+      "description": "Complete UI kit for modern dashboard design including 100+ components",
+      "price": 59.99,
+      "file_url": "https://example.com/files/modern_dashboard_ui.zip",
+      "tags": ["UI", "dashboard", "design"],
+      "file_type": "zip",
+      "file_size": "200MB"
+    },
+    {
+      "title": "Video Tutorial - Advanced Photoshop Techniques",
+      "description": "4-hour video course covering advanced Photoshop techniques for digital artists",
+      "price": 89.99,
+      "file_url": "https://example.com/files/photoshop_course.mp4",
+      "tags": ["tutorial", "photoshop", "video"],
+      "file_type": "mp4",
+      "file_size": "4GB"
+    },
+    {
+      "title": "Icon Pack - Minimal Style",
+      "description": "500 minimal style icons in multiple formats (AI, SVG, PNG)",
+      "price": 19.99,
+      "file_url": "https://example.com/files/minimal_icons.zip",
+      "tags": ["icons", "minimal", "vector"],
+      "file_type": "zip",
+      "file_size": "100MB"
+    },
+    {
+      "title": "Sound Effects Pack - Sci-Fi",
+      "description": "200 high-quality sci-fi sound effects for games and multimedia",
+      "price": 39.99,
+      "file_url": "https://example.com/files/scifi_sounds.zip",
+      "tags": ["sound effects", "sci-fi", "game audio"],
+      "file_type": "zip",
+      "file_size": "500MB"
+    },
+    {
+      "title": "E-book - Digital Marketing Guide 2024",
+      "description": "Comprehensive guide to digital marketing strategies and techniques",
+      "price": 24.99,
+      "file_url": "https://example.com/files/marketing_guide.pdf",
+      "tags": ["ebook", "marketing", "guide"],
+      "file_type": "pdf",
+      "file_size": "10MB"
+    },
+    {
+      "title": "Texture Pack - Natural Materials",
+      "description": "50 high-resolution textures of natural materials (4K resolution)",
+      "price": 34.99,
+      "file_url": "https://example.com/files/natural_textures.zip",
+      "tags": ["textures", "4K", "materials"],
+      "file_type": "zip",
+      "file_size": "1.5GB"
+    }
+  ]
+}
