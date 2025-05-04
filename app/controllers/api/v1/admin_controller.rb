@@ -5,14 +5,12 @@ module Api
 
       def creator_earnings
         creators = User.where(role: 'creator')
-                      .joins(created_assets: :purchases)
-                      .where(purchases: { status: 'completed' })
-                      .select('users.id as creator_id, 
-                              users.username, 
-                              SUM(purchases.amount) as total_earnings')
-                      .group('users.id, users.username')
+                       .left_joins(:created_assets, :purchases)
+                       .where('purchases.status = ? OR purchases.id IS NULL', 'completed')
+                       .group('users.id')
+                       .pluck('users.id', Arel.sql("COALESCE(SUM(CASE WHEN purchases.status = 'completed' THEN purchases.amount ELSE 0 END), 0)"))
 
-        render json: creators
+        render json: creators.map { |id, sum| { creator_id: id, total_earnings: sum.to_f } }, status: :ok
       end
 
       def platform_statistics
