@@ -3,7 +3,6 @@ class AssetSerializer < ActiveModel::Serializer
              :created_at, :updated_at, :asset_stats
 
   belongs_to :creator, serializer: UserSimpleSerializer
-  has_many :purchases, serializer: PurchaseSimpleSerializer
 
   def asset_stats
     {
